@@ -48,7 +48,7 @@ printfn "Length of vector1: %f\nLength of vector2: %f" vector1.Length vector2.Le
 
 type StateTracker<'T>(initialElement: 'T) =
 
-    /// This internal field store the states in a list.
+    /// This internal field stores the states in a list.
     let mutable states = [ initialElement ]
 
     /// Add a new element to the list of states.
